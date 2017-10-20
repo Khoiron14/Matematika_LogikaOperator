@@ -67,7 +67,7 @@ Kode diatas akan memunculkan pesan "salah satu variable bernilai 2", karena sala
 - Jika kedua variable diatas bernilai 2, maka kondisi tersebut bernilai FALSE.
 
 #### Operator XNOR !(^)
-Operator , Operator ini akan menghasilkan nilai TRUE jika kedua kondisi bernilai sama, TRUE atau FALSE.
+Operator !(^), Operator ini akan menghasilkan nilai TRUE jika kedua kondisi bernilai sama, TRUE atau FALSE.
 ```PHP
 $a = 2;
 $b = 2;
