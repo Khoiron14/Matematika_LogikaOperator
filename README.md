@@ -43,3 +43,15 @@ if ($a != 2) {
 }
 ```
 Kode diatas akan memunculkan pesan "variable $a tidak berisi 2", karena isi variable $a bukan 2.
+
+#### Operator XOR (^)
+Operator ^, operator ini akan menghasilkan nilai TRUE apabila salah satu dari kondisi bernilai TRUE, tapi bukan keduanya.
+```PHP
+$a = 2;
+$b = 3;
+if ($a ^ $b == 2) {
+    echo "salah satu variable bernilai 2";
+}
+```
+Kode diatas akan memunculkan pesan "salah satu variable bernilai 2", karena salah satu variable bernilai 2.
+- Jika kedua variable diatas bernilai 2, maka kondisi tersebut bernilai FALSE.
